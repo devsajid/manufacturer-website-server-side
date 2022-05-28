@@ -35,7 +35,7 @@ function verifyJWT(req, res, next) {
     });
 }
 
-// DATABASE CONNECTION
+// DATABASE CONNECTIONs
 async function run() {
     try {
         await client.connect();
